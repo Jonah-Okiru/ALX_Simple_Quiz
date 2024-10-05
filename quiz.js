@@ -7,7 +7,7 @@ function checkAnswer(){
     // the users anwer
     const userAnswer =radio_button.value;
     // compare user answer with the correct answer
-    if(userAnswer===correctAnswer){
+    if (userAnswer===correctAnswer){
         document.getElementById('feedback').textContent = "Correct! Well done.";
     } else if(userAnswer!==correctAnswer){
         document.getElementById('feedback').textContent = "That's incorrect. Try again!";
